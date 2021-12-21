@@ -30,7 +30,6 @@
   vertical-align: top;
   position: relative;
   margin: 0 15px;
-  text-decoration: none;
   color: #fff;
 
   transition: color 0.1s linear;
@@ -50,10 +49,12 @@
   transition: opacity 0.1s linear;
 }
 
-.nav__link:hover {
+.nav__link:hover,
+.nav__link.active {
   color: #fce38a;
 }
 
-.nav__link:hover:after {
+.nav__link:hover:after,
+.nav__link.active:after {
   opacity: 1;
 }
