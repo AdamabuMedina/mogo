@@ -31,8 +31,18 @@ h6 {
   margin: 0 auto;
 }
 
+hr {
+  width: 100%;
+  display: block;
+  height: 1px;
+  margin: 40px 0;
+  border: none;
+  border-color: #fff;
+}
+
 @import 'block/header.css';
 @import 'block/intro.css';
 @import 'block/section.css';
 @import 'block/about.css';
 @import 'block/statistics.css';
+@import 'block/work.css';
