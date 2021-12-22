@@ -1,0 +1,31 @@
+.statistics {
+  background-color: #95e1d3;
+}
+
+.stat {
+  display: flex;
+}
+
+.stat__item {
+  flex: 1 1 0;
+  padding: 70px 25px;
+  border-left: 1px solid #b5eae0;
+  text-align: center;
+  color: #fff;
+}
+
+.stat__item:last-child {
+  border-right: 1px solid #b5eae0;
+}
+
+.stat__count {
+  font-size: 72px;
+  font-weight: 700;
+  line-height: 1;
+  margin-bottom: 10px;
+}
+
+.stat__text {
+  font-size: 14px;
+  text-transform: uppercase;
+}
