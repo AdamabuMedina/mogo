@@ -42,3 +42,7 @@
   background: url('../../img/devices-bg.jpg') center no-repeat;
   background-size: cover;
 }
+
+.section--gray {
+  background-color: #f8f8f8;
+}
