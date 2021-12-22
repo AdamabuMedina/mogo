@@ -35,3 +35,10 @@
   color: #999;
   font-size: 15px;
 }
+
+.section--devices {
+  margin-bottom: 40px;
+  padding-bottom: 0;
+  background: url('../../img/devices-bg.jpg') center no-repeat;
+  background-size: cover;
+}

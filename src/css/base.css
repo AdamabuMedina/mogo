@@ -46,3 +46,5 @@ hr {
 @import 'block/about.css';
 @import 'block/statistics.css';
 @import 'block/work.css';
+@import 'block/devices.css';
+@import 'block/services.css';
