@@ -51,3 +51,9 @@
   background: #f5f5f5 url('../../img/clients-bg.jpg') center no-repeat;
   background-size: cover;
 }
+
+.section--map {
+  background: #e6e6e6 url('../../img/map-bg.jpg') center no-repeat;
+  padding: 40px 0;
+  background-size: cover;
+}
