@@ -5,10 +5,12 @@
 
 .reviews__item {
   position: relative;
-  padding-left: 205px;
+  padding-left: 255px;
 }
 
 .reviews__photo {
+  cursor: pointer;
+  border-radius: 50%;
   position: absolute;
   top: 0;
   left: 0;

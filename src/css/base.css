@@ -45,9 +45,10 @@ hr {
 @import 'block/section.css';
 @import 'block/about.css';
 @import 'block/statistics.css';
-@import 'block/work.css';
+@import 'block/services.css';
 @import 'block/devices.css';
 @import 'block/wedo.css';
 @import 'block/reviews.css';
 @import 'block/team.css';
 @import 'block/logos.css';
+@import 'block/works.css';
