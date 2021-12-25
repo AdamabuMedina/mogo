@@ -104,3 +104,46 @@
   font-size: 24px;
   font-weight: 700;
 }
+
+@media (max-width: 1300px) {
+  .intro__suptitle {
+    font-size: 52px;
+  }
+
+  .intro__title {
+    font-size: 120px;
+  }
+}
+
+@media (max-width: 1230px) {
+  .intro__suptitle {
+    font-size: 42px;
+  }
+
+  .intro__title {
+    font-size: 100px;
+  }
+}
+
+@media (max-width: 990px) {
+  .intro__suptitle {
+    font-size: 32px;
+  }
+
+  .intro__title {
+    font-size: 80px;
+  }
+}
+
+@media (max-width: 770px) {
+}
+
+@media (max-width: 575px) {
+  .intro__suptitle {
+    font-size: 22px;
+  }
+
+  .intro__title {
+    font-size: 40px;
+  }
+}

@@ -27,7 +27,8 @@ h6 {
 
 .container {
   width: 100%;
-  max-width: 1200px;
+  max-width: 1230px;
+  padding: 0 15px;
   margin: 0 auto;
 }
 
@@ -43,7 +44,7 @@ hr {
 @import 'block/header.css';
 @import 'block/intro.css';
 @import 'block/section.css';
-@import 'block/about.css';
+@import 'block/card.css';
 @import 'block/statistics.css';
 @import 'block/services.css';
 @import 'block/devices.css';

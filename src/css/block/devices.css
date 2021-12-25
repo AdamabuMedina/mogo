@@ -7,6 +7,8 @@
 
 .devices__item {
   display: block;
+  max-width: 100%;
+  height: auto;
 }
 
 .devices__item--iphone {
@@ -14,4 +16,28 @@
   bottom: -80px;
   right: 0;
   z-index: 1;
+}
+
+@media (max-width: 1300px) {
+}
+
+@media (max-width: 1230px) {
+}
+
+@media (max-width: 990px) {
+}
+
+@media (max-width: 770px) {
+}
+
+@media (max-width: 575px) {
+  .devices {
+    max-width: 320px;
+  }
+
+  .devices__item--iphone {
+    width: 180px;
+    bottom: -50px;
+    right: -80px;
+  }
 }

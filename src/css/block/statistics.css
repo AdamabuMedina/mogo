@@ -4,6 +4,7 @@
 
 .stat {
   display: flex;
+  flex-wrap: wrap;
 }
 
 .stat__item {
@@ -28,4 +29,46 @@
 .stat__text {
   font-size: 14px;
   text-transform: uppercase;
+}
+
+@media (max-width: 1300px) {
+}
+
+@media (max-width: 1230px) {
+}
+
+@media (max-width: 990px) {
+  .stat {
+    justify-content: center;
+  }
+
+  .stat__item {
+    flex: none;
+    width: 33.33333%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border: 0;
+  }
+
+  .stat__item:last-child {
+    border-right: 0;
+  }
+}
+
+@media (max-width: 770px) {
+}
+
+@media (max-width: 575px) {
+  .stat__item {
+    width: 100%;
+    border-bottom: 1px solid #b5eae0;
+  }
+
+  .stat__item:last-child {
+    border-bottom: 0;
+  }
+
+  .stat__count {
+    font-size: 52px;
+  }
 }

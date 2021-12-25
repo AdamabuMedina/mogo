@@ -1,9 +1,18 @@
 .wedo {
   display: flex;
+  flex-wrap: wrap;
+  margin: 0 -15px;
 }
 
 .wedo__item {
   width: 50%;
+  padding: 0 15px;
+}
+
+.wedo__img {
+  display: block;
+  max-width: 100%;
+  height: auto;
 }
 
 .accordion__item {
@@ -68,4 +77,26 @@
   color: #999;
   font-style: italic;
   font-weight: 300;
+}
+
+@media (max-width: 1300px) {
+}
+
+@media (max-width: 1230px) {
+}
+
+@media (max-width: 990px) {
+}
+
+@media (max-width: 770px) {
+  .wedo__item {
+    width: 100%;
+  }
+
+  .wedo__img {
+    display: none;
+  }
+}
+
+@media (max-width: 575px) {
 }
