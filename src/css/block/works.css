@@ -63,7 +63,18 @@
 }
 
 @media (max-width: 770px) {
+  .works {
+    flex-wrap: wrap;
+  }
+
+  .works__col {
+    flex: none;
+    width: 50%;
+  }
 }
 
 @media (max-width: 575px) {
+  .works__col {
+    width: 100%;
+  }
 }
