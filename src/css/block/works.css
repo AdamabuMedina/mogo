@@ -74,7 +74,12 @@
 }
 
 @media (max-width: 575px) {
+  .works {
+    justify-content: center;
+  }
+
   .works__col {
     width: 100%;
+    max-width: 480px;
   }
 }
