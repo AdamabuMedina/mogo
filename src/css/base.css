@@ -46,6 +46,7 @@ hr {
 }
 
 @import 'block/header.css';
+@import 'block/burger.css';
 @import 'block/intro.css';
 @import 'block/section.css';
 @import 'block/card.css';

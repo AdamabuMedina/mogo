@@ -1,0 +1,80 @@
+.nav-toggle {
+  width: 30px;
+  padding: 10px 0;
+  display: none;
+  font-size: 0;
+  color: transparent;
+  border: 0;
+  background: none;
+  cursor: pointer;
+  position: absolute;
+  top: 24px;
+  right: 24px;
+  z-index: 1;
+}
+
+.nav-toggle__item {
+  display: block;
+  width: 100%;
+  height: 3px;
+  background-color: #fff;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  transition: background 0.2s linear;
+}
+
+.nav-toggle.active .nav-toggle__item {
+  background: none;
+}
+
+.nav-toggle__item:before,
+.nav-toggle__item:after {
+  content: '';
+  width: 100%;
+  height: 3px;
+  position: absolute;
+  background-color: #fff;
+  left: 0;
+  z-index: 1;
+  transition: transform 0.2s linear;
+}
+
+.nav-toggle__item:before {
+  top: -8px;
+}
+
+.nav-toggle__item:after {
+  bottom: -8px;
+}
+
+.nav-toggle.active .nav-toggle__item:before {
+  transform-origin: left top;
+  transform: rotate(38deg) translate3d(-1px, 1px, 0);
+}
+
+.nav-toggle.active .nav-toggle__item:after {
+  transform-origin: left bottom;
+  transform: rotate(-38deg) translate3d(-2px, 0px, 0);
+}
+
+@media (max-width: 1300px) {
+}
+
+@media (max-width: 1230px) {
+}
+
+@media (max-width: 990px) {
+}
+
+@media (max-width: 770px) {
+  .nav-toggle {
+    display: block;
+  }
+}
+
+@media (max-width: 575px) {
+}
