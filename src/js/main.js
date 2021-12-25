@@ -1,3 +1,16 @@
-// const sum = require("./module/sum.js")
-// console.log(sum(10, 22));
-// console.log(sum(33, 22));
+const fixedHeader = require("./module/fixedHeader.js")
+
+$(function () {
+  const header = $("#header")
+  const introH = $("#intro").innerHeight()
+  let scrollOffset = $(window).scrollTop()
+
+  fixedHeader(scrollOffset, introH, header, "fixed")
+
+  $(window).on("scroll", function () {
+    scrollOffset = $(this).scrollTop()
+
+    fixedHeader(scrollOffset, introH, header, "fixed")
+
+  })
+})

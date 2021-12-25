@@ -8,7 +8,9 @@ const app = require("../config/app.js")
 
 // Обработка JavaScript
 const js = () => {
-  return $.gulp.src($.path.js.src, { sourcemaps: $.app.isDev })
+  return $.gulp.src(
+    $.path.js.src, { sourcemaps: $.app.isDev }
+  )
     .pipe($.gp.plumber({
       errorHandler: $.gp.notify.onError(error => ({
         title: "JavaScript",
