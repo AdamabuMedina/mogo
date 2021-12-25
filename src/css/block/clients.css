@@ -56,10 +56,35 @@
 }
 
 @media (max-width: 990px) {
+  .clients {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+
+  .clients__item {
+    width: 100%;
+    padding-right: 0;
+  }
+
+  .clients__item:last-child {
+    margin-bottom: 0;
+  }
 }
 
 @media (max-width: 770px) {
 }
 
 @media (max-width: 575px) {
+  .clients__item {
+    padding-left: 0;
+    text-align: center;
+  }
+
+  .clients__photo {
+    position: static;
+  }
+
+  .clients__text:before {
+    margin: 15px auto;
+  }
 }
