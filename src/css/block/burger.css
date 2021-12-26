@@ -1,7 +1,6 @@
 .nav-toggle {
   width: 30px;
   padding: 10px 0;
-  display: none;
   font-size: 0;
   color: transparent;
   border: 0;
@@ -11,6 +10,10 @@
   top: 24px;
   right: 24px;
   z-index: 1;
+}
+
+.nav-toggle:focus {
+  outline: 0;
 }
 
 .nav-toggle__item {
