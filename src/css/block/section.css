@@ -39,7 +39,7 @@
 .section--devices {
   margin-bottom: 40px;
   padding-bottom: 0;
-  background: url('../../img/devices-bg.jpg') center no-repeat;
+  background: url('../img/devices-bg.jpg') center no-repeat;
   background-size: cover;
 }
 
@@ -48,12 +48,12 @@
 }
 
 .section--clients {
-  background: #f5f5f5 url('../../img/clients-bg.jpg') center no-repeat;
+  background: #f5f5f5 url('../img/clients-bg.jpg') center no-repeat;
   padding: 80px 0 40px 0;
 }
 
 .section--map {
-  background: #e6e6e6 url('../../img/map-bg.jpg') center no-repeat;
+  background: #e6e6e6 url('../img/map-bg.jpg') center no-repeat;
   padding: 40px 0;
   background-size: cover;
 }
