@@ -96,7 +96,7 @@
 }
 
 @media (max-width: 990px) {
-  .reviews {
+  .reviews .slick-slider {
     padding: 0 60px;
   }
 
@@ -130,11 +130,11 @@
 }
 
 @media (max-width: 575px) {
-  .reviews {
+  .reviews .slick-slider {
     padding: 0;
   }
 
-  .reviews__btn {
+  .slick-arrow {
     top: 18%;
   }
 }
